@@ -1,0 +1,52 @@
+{
+    "name": "apt-source-list-syntax",
+    "displayName": "Apt Source List Syntax",
+    "description": "Adds syntax highlighting for `apt`'s source.lists.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.39.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "author": {
+        "email": "dm.s.vornychev@gmail.com",
+        "name": "Dmitriy Vornychev",
+        "url": "https://github.com/deitry"
+    },
+    "maintainers": [
+		{
+			"email": "dm.s.vornychev@gmail.com",
+			"name": "Dmitriy Vornychev",
+			"url": "https://github.com/deitry"
+		}
+    ],
+    "homepage": "https://manpages.debian.org/buster/apt/sources.list.5.en.html",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/deitry/apt-source-list-syntax"
+    },
+    "bugs": {
+        "url": "https://github.com/deitry/apt-source-list-syntax/issues",
+        "email": "dm.s.vornychev@gmail.com"
+    },
+    "galleryBanner": {
+        "color": "#003542",
+        "theme": "dark"
+    },
+    "keywords": ["apt", "apt-get", "source.list", "debsources", "deb", "repos", "repositories"],
+    "contributes": {
+        "languages": [{
+            "id": "debsources",
+            "aliases": ["debsources", "source.list"],
+            "extensions": [".list"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "debsources",
+            "scopeName": "source.debsources",
+            "path": "./syntaxes/debsources.tmLanguage.json"
+        }]
+    }
+}

@@ -1,0 +1,6 @@
+# examples
+
+deb [arch=amd64] mirror+cdrom:[Kubuntu 18.04 LTS _Bionic Beaver_ - Release amd64 (20180426)]/ bionic main
+
+# karmic - out of service
+deb-src [trusted=yes] http://archive.ubuntu.com/ubuntu/ karmic main restricted universe multiverse
