@@ -17,12 +17,12 @@
 			},
 			{
 				"name": "keyword.other.debsources",
-				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|cosmic|disco|eoan)\\b",
+				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|cosmic|disco|eoan)(-(updates|security))?\\b",
 				"comment": "Supported versions"
 			},
 			{
 				"name": "invalid.deprecated.debsources",
-				"match": "\\b(buzz|rex|bo|hamm|slink|potato|woody|sarge|etch|lenny|squeeze|warty|hoary|breezy|dapper|edgy|feisty|gutsy|hardy|intrepid|jaunty|karmic|lucid|maverick|natty|oneiric|precise|quantal|raring|saucy|utopic|vivid|wily|yakkety|zesty|artful)\\b",
+				"match": "\\b(buzz|rex|bo|hamm|slink|potato|woody|sarge|etch|lenny|squeeze|warty|hoary|breezy|dapper|edgy|feisty|gutsy|hardy|intrepid|jaunty|karmic|lucid|maverick|natty|oneiric|precise|quantal|raring|saucy|utopic|vivid|wily|yakkety|zesty|artful)(-(updates|security))?\\b",
 				"comment": "Unsupported versions"
 			},
 			{
@@ -42,7 +42,7 @@
 			},
 			{
 				"name": "string.html",
-				"match": "\\b(mirror\\+)?((cdrom|copy|file):[\\[]?[a-zA-Z0-9\\-._~!$&'()*+,;=/\\\\\\s\\w]+[\\]]?|[tor+]?https?:\/\/|ftp:\/\/|[rs]sh:\/\/|debtorrent:\/\/)[a-zA-Z0-9-._~!$&'()*+,;=\/\\\\]+"
+				"match": "\\b(mirror\\+)?((cdrom|copy|file):[\\[]?[a-zA-Z0-9\\-._~!$&'()*+,;=/\\\\\\s\\w]+[\\]]?|[tor+]?https?:\/\/|ftp:\/\/|[rs]sh:\/\/|debtorrent:\/\/)[a-zA-Z0-9\\-._~!$&'()*+,;=\/\\\\]+"
 			},
 			{
 				"name": "comment.line",
