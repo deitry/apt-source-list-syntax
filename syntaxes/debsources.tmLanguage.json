@@ -17,7 +17,7 @@
 			},
 			{
 				"name": "keyword.other.debsources",
-				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|cosmic|disco|eoan)(-(updates|security))?\\b",
+				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|cosmic|disco|eoan)(-(updates|security|backports))?\\b",
 				"comment": "Supported versions"
 			},
 			{

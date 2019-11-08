@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.3]
+
+- Fix highlighting of `-backports` modifier
+
 ## [0.1.2]
 
 - Fix highlighting after `-` in uri
