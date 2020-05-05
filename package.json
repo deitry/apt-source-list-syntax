@@ -2,7 +2,7 @@
     "name": "apt-source-list-syntax",
     "displayName": "Apt Source List Syntax",
     "description": "Adds syntax highlighting for `apt`'s source.lists.",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "engines": {
         "vscode": "^1.39.0"
     },

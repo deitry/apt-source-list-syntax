@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.1.4]
+
+- Actualize Ubuntu version codes. Particularily support for Ubuntu 20.04 Focal Fossa
+- fix highlight for `proposed` and deprecated `-backports`
+Thanks, @trenton42
+
 ## [0.1.3]
 
 - Fix highlighting of `-backports` modifier
