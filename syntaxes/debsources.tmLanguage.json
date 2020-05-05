@@ -17,12 +17,12 @@
 			},
 			{
 				"name": "keyword.other.debsources",
-				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|cosmic|disco|eoan|focal)(-(updates|security|backports|proposed))?\\b",
+				"match": "\\b(oldstable|stable|testing|unstable|experimental|devel|jessie|stretch|buster|sid|rc-buggy|trusty|xenial|bionic|eoan|focal|groovy)(-(updates|security|backports|proposed))?\\b",
 				"comment": "Supported versions"
 			},
 			{
 				"name": "invalid.deprecated.debsources",
-				"match": "\\b(buzz|rex|bo|hamm|slink|potato|woody|sarge|etch|lenny|squeeze|warty|hoary|breezy|dapper|edgy|feisty|gutsy|hardy|intrepid|jaunty|karmic|lucid|maverick|natty|oneiric|precise|quantal|raring|saucy|utopic|vivid|wily|yakkety|zesty|artful)(-(updates|security|backports))?\\b",
+				"match": "\\b(buzz|rex|bo|hamm|slink|potato|woody|sarge|etch|lenny|squeeze|warty|hoary|breezy|dapper|edgy|feisty|gutsy|hardy|intrepid|jaunty|karmic|lucid|maverick|natty|oneiric|precise|quantal|raring|saucy|utopic|vivid|wily|yakkety|zesty|artful|cosmic|disco)(-(updates|security|backports))?\\b",
 				"comment": "Unsupported versions"
 			},
 			{
