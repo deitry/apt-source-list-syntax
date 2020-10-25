@@ -13,7 +13,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.debsources",
-				"match": "\\b(deb-src|deb|main|contrib|non-free|restricted|universe|multiverse)\\b"
+				"match": "\\b(deb-src|deb|main|contrib|non-free|restricted|universe|multiverse|partner)\\b"
 			},
 			{
 				"name": "keyword.other.debsources",

@@ -3,6 +3,7 @@
 deb [arch=amd64] mirror+cdrom:[Kubuntu 18.04 LTS _Bionic Beaver_ - Release amd64 (20180426)]/ bionic main
 deb [arch=armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial main multiverse restricted universe
 deb [arch=armhf] http://ports.ubuntu.com/ubuntu-ports/ xenial-updates main multiverse restricted universe
+deb http://archive.canonical.com/ubuntu focal partner
 
 # karmic - out of service
 deb-src [trusted=yes] http://archive.ubuntu.com/ubuntu/ karmic main restricted universe multiverse
