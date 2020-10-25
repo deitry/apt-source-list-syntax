@@ -2,7 +2,7 @@
     "name": "apt-source-list-syntax",
     "displayName": "Apt Source List Syntax",
     "description": "Adds syntax highlighting for `apt`'s source.lists.",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "engines": {
         "vscode": "^1.39.0"
     },
@@ -16,11 +16,11 @@
     },
     "publisher": "deitry",
     "maintainers": [
-		{
-			"email": "dm.s.vornychev@gmail.com",
-			"name": "Dmitriy Vornychev",
-			"url": "https://github.com/deitry"
-		}
+        {
+            "email": "dm.s.vornychev@gmail.com",
+            "name": "Dmitriy Vornychev",
+            "url": "https://github.com/deitry"
+        }
     ],
     "icon": "resources/icon.png",
     "homepage": "https://manpages.debian.org/buster/apt/sources.list.5.en.html",
@@ -37,18 +37,35 @@
         "color": "#003542",
         "theme": "dark"
     },
-    "keywords": ["apt", "apt-get", "source.list", "debsources", "deb", "repos", "repositories"],
+    "keywords": [
+        "apt",
+        "apt-get",
+        "source.list",
+        "debsources",
+        "deb",
+        "repos",
+        "repositories"
+    ],
     "contributes": {
-        "languages": [{
-            "id": "debsources",
-            "aliases": ["debsources", "source.list"],
-            "extensions": [".list"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "debsources",
-            "scopeName": "source.debsources",
-            "path": "./syntaxes/debsources.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "debsources",
+                "aliases": [
+                    "debsources",
+                    "source.list"
+                ],
+                "extensions": [
+                    ".list"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "debsources",
+                "scopeName": "source.debsources",
+                "path": "./syntaxes/debsources.tmLanguage.json"
+            }
+        ]
     }
 }

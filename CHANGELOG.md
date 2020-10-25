@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.5]
+
+- Add `partner` keyword (#3)
+
 ## [0.1.4]
 
 - Actualize Ubuntu version codes. Particularily support for Ubuntu 20.04 Focal Fossa
