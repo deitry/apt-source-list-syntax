@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.1.6]
+
+- Security fix
+
 ## [0.1.5]
 
 - Add `partner` keyword (#3)
